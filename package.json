@@ -1,0 +1,23 @@
+{
+  "name": "josh",
+  "version": "1.0.0",
+  "description": "Assignment 0",
+  "main": "index.js",
+  "scripts" : {
+      "prestart": "mongod --dbpath dbpath --logpath log/mongod.log&",
+      "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshNavi/cogs121-sp16-ass0.git"
+  },
+  "author": "Josh Navi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshNavi/cogs121-sp16-ass0/issues"
+  },
+  "homepage": "https://github.com/JoshNavi/cogs121-sp16-ass0#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
