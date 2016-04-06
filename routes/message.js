@@ -12,7 +12,6 @@ exports.send = function(req, res) {
 
   message.save(function(err, data) {
     if (err) console.log(err);
-    else console.log("Saved data: " + data);
   });
 
   res.redirect('/');
